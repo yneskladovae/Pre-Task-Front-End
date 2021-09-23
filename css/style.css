@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: linear-gradient(to top right, rgba(99, 224, 255, 0.24), rgba(109, 213, 247, 0.25), rgba(119, 203, 239, 0.25), rgba(128, 192, 231, 0.26), rgba(138, 181, 223, 0.27), rgba(148, 170, 215, 0.28), rgba(158, 160, 206, 0.28), rgba(168, 149, 198, 0.29), rgba(178, 138, 190, 0.3), rgba(187, 127, 182, 0.31), rgba(197, 117, 174, 0.31), rgba(207, 106, 166, 0.32));
+}
+
+ul {
+    list-style-type: square;
+}
+
+body {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: grid;
+    height: 100vh;
+    align-content: center;
+}
+
+.header-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+    flex-wrap: wrap;
+}
+
+header.header {
+    background: cadetblue;
+}
+
+.header-contacts a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-contacts h2, h3 {
+    margin: 5px;
+    font-size: 25px;
+}
+
+h1.header-contacts {
+    font-size: 30px;
+}
+
+.header-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+.header-avatar_img {
+    transition: all .5s ease;
+}
+
+.header-avatar_img:hover {
+    transform: scale(1.1);
+}
+
+.table-info td {
+    width: 50%;
+}
+
+ul.table-info-list li strong {
+    display: block;
+}
+
+td.left-side {
+    text-align: right;
+    transform: rotate(
+-10deg);
+}
+
+span.date {
+    display: block;
+}
+
+.form-items {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input.input {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.button {
+    border: none;
+    font-size: 28px;
+    color: #ffffff;
+    padding: 20px;
+    width: 300px;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    box-sizing: border-box;
+    background: cadetblue;
+}
+
+section.info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background: aliceblue;
+}
+
+td.left-side {
+    text-align: center;
+    transform: rotate( 
+-10deg);
+    font-weight: bold;
+}
+
+td.left-side:hover {
+    transform: rotate(0deg);
+    transition-duration: .3s;
+}
